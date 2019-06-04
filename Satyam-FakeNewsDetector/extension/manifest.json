@@ -1,0 +1,32 @@
+{
+  "name": "SATYAM- Fake News Predictor",
+  "version": "1.0.0",
+
+  "description": "Tool to detect fake news",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+  },
+
+  "permissions": [
+    "contextMenus",
+    "webNavigation",
+    "pageCapture",
+    "activeTab",
+    "tabs",
+    "https://twitter.com/",
+    "http://127.0.0.1:5000/"
+  ],
+
+  "manifest_version": 2
+}
